@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/pokemon-search.github.io/static/css/main.96793e83.chunk.css",
-    "main.js": "/pokemon-search.github.io/static/js/main.bd870aa0.chunk.js",
-    "main.js.map": "/pokemon-search.github.io/static/js/main.bd870aa0.chunk.js.map",
-    "runtime-main.js": "/pokemon-search.github.io/static/js/runtime-main.1fd4a115.js",
-    "runtime-main.js.map": "/pokemon-search.github.io/static/js/runtime-main.1fd4a115.js.map",
-    "static/js/2.e1a0f1bd.chunk.js": "/pokemon-search.github.io/static/js/2.e1a0f1bd.chunk.js",
-    "static/js/2.e1a0f1bd.chunk.js.map": "/pokemon-search.github.io/static/js/2.e1a0f1bd.chunk.js.map",
-    "index.html": "/pokemon-search.github.io/index.html",
-    "precache-manifest.3fa3a2788cb1a8205fff212938eed7fe.js": "/pokemon-search.github.io/precache-manifest.3fa3a2788cb1a8205fff212938eed7fe.js",
-    "service-worker.js": "/pokemon-search.github.io/service-worker.js",
-    "static/css/main.96793e83.chunk.css.map": "/pokemon-search.github.io/static/css/main.96793e83.chunk.css.map",
-    "static/js/2.e1a0f1bd.chunk.js.LICENSE.txt": "/pokemon-search.github.io/static/js/2.e1a0f1bd.chunk.js.LICENSE.txt"
+    "main.css": "/pokemon-search/static/css/main.96793e83.chunk.css",
+    "main.js": "/pokemon-search/static/js/main.ec2053af.chunk.js",
+    "main.js.map": "/pokemon-search/static/js/main.ec2053af.chunk.js.map",
+    "runtime-main.js": "/pokemon-search/static/js/runtime-main.579730f1.js",
+    "runtime-main.js.map": "/pokemon-search/static/js/runtime-main.579730f1.js.map",
+    "static/js/2.e1a0f1bd.chunk.js": "/pokemon-search/static/js/2.e1a0f1bd.chunk.js",
+    "static/js/2.e1a0f1bd.chunk.js.map": "/pokemon-search/static/js/2.e1a0f1bd.chunk.js.map",
+    "index.html": "/pokemon-search/index.html",
+    "precache-manifest.cd778ef75c53d217aec62d0646be1675.js": "/pokemon-search/precache-manifest.cd778ef75c53d217aec62d0646be1675.js",
+    "service-worker.js": "/pokemon-search/service-worker.js",
+    "static/css/main.96793e83.chunk.css.map": "/pokemon-search/static/css/main.96793e83.chunk.css.map",
+    "static/js/2.e1a0f1bd.chunk.js.LICENSE.txt": "/pokemon-search/static/js/2.e1a0f1bd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.1fd4a115.js",
+    "static/js/runtime-main.579730f1.js",
     "static/js/2.e1a0f1bd.chunk.js",
     "static/css/main.96793e83.chunk.css",
-    "static/js/main.bd870aa0.chunk.js"
+    "static/js/main.ec2053af.chunk.js"
   ]
 }
