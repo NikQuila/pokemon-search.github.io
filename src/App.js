@@ -1,26 +1,41 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import { CardList } from "./components/card-list/card-list.component";
+import { SearchBox } from "./components/search-box/search-box.component";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      pokemons: [],
+      searchField: "",
+    };
+  }
+  componentDidMount() {
+    fetch("https://pokeapi.co/api/v2/pokemon/?offset=0&limit=700")
+      .then((response) => response.json())
+      .then((pokemon) => this.setState({ pokemons: pokemon.results }));
+  }
+
+  handleChange = (e) => {
+    this.setState({ searchField: e.target.value });
+  };
+  render() {
+    const { pokemons, searchField } = this.state;
+    const filteredPokemons = pokemons.filter((pokemon) => {
+      return pokemon.name.toLowerCase().includes(searchField.toLowerCase());
+    });
+    return (
+      <div className="App">
+        <h1>Pokemon Search</h1>
+        <SearchBox
+          placeholder="search Pokemon"
+          handleChange={this.handleChange}
+        ></SearchBox>
+        <CardList pokemons={filteredPokemons}></CardList>
+      </div>
+    );
+  }
 }
 
 export default App;
