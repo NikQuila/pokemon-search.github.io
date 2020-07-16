@@ -12,7 +12,7 @@ class App extends Component {
     };
   }
   componentDidMount() {
-    fetch("https://pokeapi.co/api/v2/pokemon/?offset=0&limit=700")
+    fetch("https://pokeapi.co/api/v2/pokemon/?offset=0&limit=721")
       .then((response) => response.json())
       .then((pokemon) => this.setState({ pokemons: pokemon.results }));
   }
@@ -27,7 +27,8 @@ class App extends Component {
     });
     return (
       <div className="App">
-        <h1>Pokemon Search</h1>
+        <h1 className="titulo">Pokemon Search</h1>
+
         <SearchBox
           placeholder="search Pokemon"
           handleChange={this.handleChange}

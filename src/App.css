@@ -1,7 +1,5 @@
-.App {
+h1.titulo {
   text-align: center;
-}
-h1 {
   -webkit-text-stroke: 2px rgb(53, 103, 176);
   font-family: "Trade Winds";
   font-size: 72px;

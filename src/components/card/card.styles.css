@@ -1,7 +1,7 @@
 @media (max-width: 10000px) {
   .card-container {
     width: 12rem;
-
+    text-transform: capitalize;
     cursor: pointer;
     -moz-osx-font-smoothing: grayscale;
     backface-visibility: hidden;
