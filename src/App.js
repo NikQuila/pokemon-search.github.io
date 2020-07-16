@@ -30,7 +30,7 @@ class App extends Component {
         <h1 className="titulo">Pokemon Search</h1>
 
         <SearchBox
-          placeholder="search Pokemon"
+          placeholder="Search"
           handleChange={this.handleChange}
         ></SearchBox>
         <CardList pokemons={filteredPokemons}></CardList>
