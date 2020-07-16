@@ -15,7 +15,9 @@ export const Card = (props) => (
       <CardBS.Img src="https://static.vecteezy.com/system/resources/previews/000/625/844/non_2x/geometric-abstract-light-blue-background-for-website-wallpapers-bussines-templates-vector.jpg"></CardBS.Img>
 
       <CardBS.Body>
-        <CardBS.Title className="capitalize">{props.pokemon.name}</CardBS.Title>
+        <CardBS.Title className="capitalize">
+          {`${props.pokemon.name}  #${props.pokemon.pokedex}`}
+        </CardBS.Title>
         <Button variant="success">Check it</Button>
       </CardBS.Body>
     </CardBS>
